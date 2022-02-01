@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Entre em contato com o CEAD - UnB</h1>
+        <p>Preencha seus dados:</p>
+        <form>
+            <div class="row">
+                <div class="column">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" placeholder="Digite seu nome">
+                </div>
+                <div class="column">
+                    <label for="unidade">Unidade:</label>
+                    <input type="text" id="unidade" placeholder="Digite sua unidade">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="matricula">Matrícula:</label>
+                    <input type="number" id="matricula" placeholder="Digite sua matrícula">
+                </div>
+                <div class="column">
+                    <label for="telefone">Telefone para contato:</label>
+                    <input type="tel" id="telefone" placeholder="Digite o telefone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Descreva seu problema</label>
+                    <textarea id="issue" placeholder="Descreva seu problema em detalhes"rows="3"></textarea>
+                </div>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
